@@ -65,6 +65,10 @@
         {
           "service": "google.firestore.v1beta1.Firestore",
           "method": "RunQuery"
+        },
+        {
+          "service": "google.firestore.v1beta1.Firestore",
+          "method": "RunAggregationQuery"
         }
       ],
       "timeout": "300s",

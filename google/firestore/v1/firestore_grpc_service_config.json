@@ -39,6 +39,10 @@
         },
         {
           "service": "google.firestore.v1.Firestore",
+          "method": "RunAggregationQuery"
+        },
+        {
+          "service": "google.firestore.v1.Firestore",
           "method": "PartitionQuery"
         }
       ],
