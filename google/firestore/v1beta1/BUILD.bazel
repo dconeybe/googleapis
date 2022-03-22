@@ -21,6 +21,7 @@ load("@com_google_googleapis_imports//:imports.bzl", "proto_library_with_info")
 proto_library(
     name = "firestore_proto",
     srcs = [
+        "aggregation_result.proto",
         "common.proto",
         "document.proto",
         "firestore.proto",
